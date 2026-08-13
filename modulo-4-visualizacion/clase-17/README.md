@@ -42,6 +42,8 @@ ax.bar(ventas["mes"].dt.strftime("%b"), ventas["ingresos"])
 plt.show()
 ```
 
+![imagen03](../../assets/clase-17/imagen01-clase17.png)
+
 Este código funciona y el gráfico se genera sin errores, pero no comunica ningún mensaje por sí solo. Ahora pensemos qué necesita un gráfico para que alguien, sin ningún contexto previo, entienda la idea principal de un vistazo: un título que sea una afirmación concreta (no una descripción genérica como "Ingresos por mes"), los ejes con sus unidades correspondientes, y algún elemento visual que dirija la mirada hacia lo más importante.
 
 ```python
@@ -64,6 +66,8 @@ ax.set_axisbelow(True)
 plt.tight_layout()
 plt.show()
 ```
+
+![imagen03](../../assets/clase-17/imagen02-clase17.png)
 
 Observa el cambio principal: el título ya no describe el gráfico, sino que comunica la conclusión que quieres que la persona se lleve. Eso es personalizar con intención, no decorar. El color resalta un solo mes en lugar de usar una paleta de colores distintos que no representan ninguna categoría real. Y quitamos los bordes superior y derecho del gráfico, porque esas líneas no aportan ninguna información, solo ruido visual.
 
@@ -188,7 +192,7 @@ ax.spines[["top", "right"]].set_visible(False)
 
 *Recomendación*: "Reforzar el stock entre un 15% y un 20% por encima del promedio mensual para noviembre y diciembre, en base al patrón de los últimos tres años, priorizando las categorías que más crecen en ese período."
 
-![imagen03]("../../assets/clase-17/imagen03-clase17.png")
+![imagen03](../../assets/clase-17/imagen03-clase17.png)
 
 Fíjate que ninguno de los gráficos de esta sección es técnicamente distinto de los que ya sabías armar antes. Lo que cambia es el orden en el que se los presentas a alguien, y que cada gráfico cumple un rol específico dentro de un argumento, en lugar de estar ahí simplemente porque "quedaba bien".
 
