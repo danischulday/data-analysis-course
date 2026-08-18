@@ -4,6 +4,7 @@
 
 Los ejercicios están planteados como pedidos reales que podrías recibir en un trabajo. No vienen con el código resuelto — vienen con el problema que hay que resolver, como en la vida real. Usa lo que vimos hoy (líneas, barras, histograma, scatter, mapa de calor) y lo que ya sabías de personalización de gráficos.
 
+
 ---
 
 ## Ejercicio 1 — El reporte semanal para el jefe de planta
